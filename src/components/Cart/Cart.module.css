@@ -1,0 +1,234 @@
+.cart_page button {
+    background-color: var(--blue);
+    border: 2px solid var(--blue);
+    color: #ffffff;
+    transition: all 0.25s linear;
+    cursor: pointer;
+  }
+  
+  .cart_page button::after {
+    position: relative;
+    right: 0;
+    content: " \276f";
+    transition: all 0.15s linear;
+  }
+  
+  .cart_page button:hover {
+    background-color: var(--red);
+    border-color: var(--red);
+  }
+  
+  .cart_page button:hover::after {
+    right: -5px;
+  }
+  
+  .cart_page button:focus {
+    outline: none;
+  }
+  .cart_page ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+  .cart_page input {
+    transition: all 0.25s linear;
+  }
+  .cart_page input[type=number]::-webkit-inner-spin-button,
+  .cart_page input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+.cart_page input {
+    outline: none;
+  }
+  .cart_page .breadcrumb{
+    color: #7d7d7d;
+  }
+  .cart_page .breadcrumb li {
+    float: left;
+    padding: 0 6px;
+  }
+  .cart_page .breadcrumb li:first-child {
+    padding-left: 2px;
+  }
+  .cart_page .breadcrumb li:not(:last-child)::after {
+    content: " \276f";
+    padding-left: 8px;
+  }
+  .cart_page .count {
+    float: right;
+    color: #333333;
+  }
+  /* --- PRODUCT LIST --- */
+  /* .products {
+    border-top: 1px solid #ddd;
+  } */
+  /* header{
+    border-bottom: 1px solid #ddd;
+  } */
+  
+  .cart_page .products > li {
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  .cart_page .row {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+  }
+  .col, .quantity, .remove {
+    float: left;
+  }
+  /* .col_left {
+    width: 70%;
+  } */
+  .cart_page .col_right {
+    width: 30%;
+    position: absolute;
+    right: 0;
+    top: calc(50% - 30px);
+  }
+  .cart_page .details{
+      text-align: start;
+  }
+  .cart_page .detail {
+    padding: 0 0.5rem;
+    line-height: 2.2rem;
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+  .description {
+    color: #7d7d7d;
+    font-size: 1rem;
+  }
+  .price {
+    font-size: 1.5rem;
+  }
+
+  .remove svg {
+    width: 60px;
+    height: 60px;
+  }
+  .quantity > input {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    left: calc(50% - 30px);
+    background: #fff;
+    border: 2px solid #ddd;
+    color: #7f7f7f;
+    text-align: center;
+    font: 600 1.5rem Helvetica, Arial, sans-serif;
+  }
+  .quantity > input:hover, .quantity > input:focus {
+    border-color: #f58551;
+  }
+  .close {
+    fill: #7d7d7d;
+    transition: color 150ms linear,
+      background-color 150ms linear,
+      fill 150ms linear,
+      150ms opacity linear;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    fill: #f58551;
+  }
+
+  /* --- SUMMARY --- */
+  .promotion > label {
+    float: left;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .promotion > input {
+    float: left;
+    width: 80%;
+    font-size: 1rem;
+    padding: 0.5rem 0 0.5rem 1.8rem;
+    border: 2px solid var(--blue);
+    border-radius: 2rem 0 0 2rem;
+  }  
+  .promotion:hover > input {
+    border-color: var(--red);
+  }
+  .promotion > button {
+    float: left;
+    width: 20%;
+    padding: 0.5rem 0;
+    border-radius: 0 2rem 2rem 0;
+  }
+  .promotion > button::after {
+    content: "\276f";
+    font-size: 1rem;
+  }
+  .summary {
+    font-size: 1.2rem;
+    text-align: right;
+  }
+  .summary ul li {
+    padding: 0.5rem 0;
+  }
+  .summary ul li span {
+    display: inline-block;
+    width: 30%;
+  }
+  .checkout {
+    text-align: right;
+  }
+  .checkout > button {
+    font-size: 1.2rem;
+    padding: 0.8rem 2.8rem;
+    border-radius: 1.5rem;
+  }
+  .empty_product {
+    text-align: center;
+  }
+  .empty-product > button {
+    font-size: 1.3rem; 
+    padding: 10px 30px; 
+    border-radius: 5px;
+  }
+
+  /* --- SMALL SCREEN --- */
+@media all and (max-width: 599px) {
+    .thumbnail a img {
+      display: none;
+    }
+    .quantity > input {
+        width: 40px;
+        height: 40px;
+        left: calc(50% - 20px);
+      }
+      .remove svg {
+        width: 40px;
+        height: 40px;
+      }
+} 
+
+/* --- MEDIUM & LARGE SCREEN --- */
+@media all and (min-width: 600px) {
+    .thumbnail {
+        width: 35% !important;
+      }
+      .detail {
+        width: 65%;
+      }
+      /* .promotion, .summary {
+        width: 50%;
+      } */
+      .checkout {
+        width: 100%;
+      }
+      .checkout, .summary {
+        text-align: center;
+      }
+}
+
+
+  

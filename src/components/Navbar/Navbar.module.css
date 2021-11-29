@@ -1,0 +1,21 @@
+.navbar_shineporium {
+    background-color: #0C96C4;
+}
+.navbar_shineporium li a{
+    color: #fff !important;
+}
+.navbar_shineporium li .dropdown-menu{
+    background-color: #0C96C4 !important;
+}
+/* .btn_prescription:after{
+
+} */
+/* .navigationBar{
+    background:red;
+  }
+  .navigationBar .nav-item{
+      color: #fff;
+  } */
+  .drop_down .dropdown-menu{
+      background-color: #0c96c4;
+  }

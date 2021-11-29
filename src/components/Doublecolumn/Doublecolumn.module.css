@@ -1,0 +1,65 @@
+.double_column:hover{
+    box-shadow: -1px 6px 13px -2px rgba(0,0,0,0.75);
+}
+.double_column h4{
+    display: flex;
+    align-items: center;
+    color: #24BAE9;
+}
+.double_column h4::before, .double_column h4::after{
+    flex:1;
+    height: 3px;
+    width: 200px;
+    content: '';
+    background-color: #707070;
+}
+.double_column h4::before{
+    margin-right:10px;
+}
+.double_column h4::after{
+    margin-left:10px;
+}
+.product_img{
+  height: 200px;
+}
+.custom_btn {
+    width: 130px;
+    height: 40px;
+    padding: 10px 25px;
+    border: 2px solid #e3322b;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  .btn_16 {
+    background: #e3322b;
+   color: #fff;
+   z-index: 1;
+ }
+ .btn_16:after {
+   position: absolute;
+   content: "";
+   width: 0;
+   height: 100%;
+   top: 0;
+   left: 0;
+   direction: rtl;
+   z-index: -1;
+   background: #e0e5ec;
+   transition: all 0.3s ease;
+ }
+ .btn_16:hover {
+   color: #e3322b;
+ }
+ .btn_16:hover:after {
+   left: auto;
+   right: 0;
+   width: 100%;
+ }
+ .btn_16:active {
+   top: 2px;
+ }

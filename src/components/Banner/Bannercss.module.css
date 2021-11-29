@@ -1,0 +1,4 @@
+.banner_slider button::before{
+    font-size: 3rem;
+    color: red;
+}

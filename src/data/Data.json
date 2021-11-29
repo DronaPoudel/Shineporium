@@ -1,0 +1,185 @@
+{
+    "Logo": [
+        {
+            "img_logo": "https://i.ibb.co/6ZjLKpr/SHINEPORIUM-Img-Logo.png",
+            "text_logo": "https://i.ibb.co/XDTtBYk/SHINEPORIUM-Text-Logo.png"
+        }
+    ],
+    "Banner_images": [
+        {
+            "id": 1,
+            "image": "https://i.ibb.co/hcT5Std/Globes-banner.png"
+        },
+        {
+            "id": 2,
+            "image": "https://i.ibb.co/hcT5Std/Globes-banner.png"
+        },
+        {
+            "id": 1,
+            "image": "https://i.ibb.co/hcT5Std/Globes-banner.png"
+        },
+        {
+            "id": 2,
+            "image": "https://i.ibb.co/hcT5Std/Globes-banner.png"
+        }
+    ],
+   "products": 
+       {
+        "examinationGloves":[
+            {
+                "id": 1,
+                "name": "Thermal Gun",
+                "img": "https://i.ibb.co/0h7c19p/EG2.png",
+                "keywords": [
+                    {"keyword": "100% cotton"},
+                    {"keyword": "Light weight"},
+                    {"keyword": "Best finish"},
+                    {"keyword": "Unique design"},
+                    {"keyword": "Casual"}
+                    ],
+                "prices": {
+                    "mp": 56000,
+                    "sp": 50000
+                },
+                "category": "Surgical",
+                "description": "Product Description Product Description"
+            },
+            {
+                "id": 2,
+                "name": "Masks",
+                "img": "https://i.ibb.co/w7TVPrf/dxgf9c5p.png",
+                "keywords": [
+                    {"keyword": "100% cotton"},
+                    {"keyword": "Light weight"},
+                    {"keyword": "Best finish"},
+                    {"keyword": "Unique design"},
+                    {"keyword": "Casual"}
+                    ],
+                    "prices": {
+                        "mp": 56000,
+                        "sp": 4000
+                    },
+                "category": "Surgical",
+                "description": "Product Description Product Description"
+            },
+            {
+                "id": 3,
+                "name": "Coat",
+                "img": "https://i.imgur.com/QpjAiHq.jpg",
+                "keywords": [
+                    "100% cotton", "Light weight", "Best finish", "Unique design", "Casual"
+                ],
+                "prices": {
+                    "mp": 56000,
+                    "sp": 50000
+                },
+                "category": "Surgical",
+                "description": "Product Description Product Description"
+            },
+            {
+                "id": 4,
+                "name": "Colored Gloves",
+                "img": "https://i.ibb.co/86HWf4g/EG3.png",
+                "keywords": [
+                    "100% cotton", "Light weight", "Best finish", "Unique design", "Casual"
+                ],
+                "prices": {
+                    "mp": 56000,
+                    "sp": 50000
+                },
+                "category": "Surgical",
+                "description": "Product Description Product Description"
+            },
+            {
+                "id": 5,
+                "name": "Examination Gloves",
+                "img": "https://i.ibb.co/RyFc28G/EG4.png",
+                "keywords": [
+                    {"keyword": "100% cotton"},
+                    {"keyword": "Light weight"},
+                    {"keyword": "Best finish"},
+                    {"keyword": "Unique design"},
+                    {"keyword": "Casual"}
+                    ],
+                    "prices": {
+                        "mp": 56000,
+                        "sp": 50000
+                    },
+                "category": "Surgical",
+                "description": "Product Description Product Description"
+            }
+            
+        ],
+        "plasticGloves":[
+            {
+                "id": 1,
+                "name": "Thermal Gun",
+                "img": "https://i.ibb.co/Y2JdtGP/PG1.png",
+                "price": "5,600",
+                "category": "Surgical"
+            },
+            {
+                "id": 2,
+                "name": "Thermal bus",
+                "img": "https://i.ibb.co/g7mHWWX/PG2.png",
+                "price": "5,600",
+                "category": "Surgical"
+            },
+            {
+                "id": 3,
+                "name": "Thermal Gun",
+                "img": "https://i.ibb.co/NxssqZW/PG3.png",
+                "price": "5,600",
+                "category": "Surgical"
+            }
+        ],
+        "HospitalGarments":[
+            {
+                "id": 1,
+                "name": "Doctors’ Scrub",
+                "img": "https://i.ibb.co/d5B79pY/HG1.png",
+                "marked_price": "5600",
+                "selling_price": "4000"
+            },
+            {
+                "id": 2,
+                "name": "Nurse Uniform",
+                "img": "https://i.ibb.co/K7MgXGH/HG2.png",
+                "marked_price": "5600",
+                "selling_price": "4000"
+            },
+            {
+                "id": 3,
+                "name": "Nurse Uniform",
+                "img": "https://i.ibb.co/XYqCgKN/HG3.png",
+                "marked_price": "5600",
+                "selling_price": "4000"
+            },
+            {
+                "id": 4,
+                "name": "Pillow Covers",
+                "img": "../Assets/Images/Pillow-Covers.png",
+                "marked_price": "5600",
+                "selling_price": "4000"
+            }
+        ],
+        "CARTPRODUCTS" : [
+            {
+              "image": "https://via.placeholder.com/200x150",
+              "name": "PRODUCT ITEM NUMBER 1",
+              "description": "Description for product item number 1",
+              "price": 5.99,
+              "quantity": 2
+            },
+            {
+              "image": "https://via.placeholder.com/200x150",
+              "name": "PRODUCT ITEM NUMBER 2",
+              "description": "Description for product item number 1",
+              "price": 9.99,
+              "quantity": 1
+            }
+          ]
+       }
+   
+}
+

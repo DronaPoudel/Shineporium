@@ -1,0 +1,62 @@
+.intro_header{
+    background-color: #384184;
+}
+
+.intro_header_intro{
+    color: #fff;
+    text-transform: uppercase;
+}
+.introheader_intro_h2bg_text{
+    background-color: #E3322B;
+}
+.main_cart{
+position: relative;
+}
+.main_cart a{
+    color: #fff;
+}
+.main_cart a span sup{
+    position: absolute;
+    top: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.introheader_intro_contact_p{
+    text-align: start;
+    font-size: 1.3rem;
+    text-transform: none;
+}
+.introheader_search_bar{
+    width: 70%;
+}
+.shineporium_social a{
+    color: #FFF;
+}
+.btn_register a{
+    color: #fff;
+}
+.btn_register a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.btn_register a::before{
+    content: url('https://i.ibb.co/GvsRLs4/Register.png');
+}
+.btn_register:hover a::before{
+    content: url('https://i.ibb.co/SQWpsWJ/Register.png');
+}
+.btn_login a{
+    color: #fff;
+}
+.btn_login a:hover{
+    color: #000;
+    text-decoration: none;
+}
+.btn_login a::before{
+    content: url('https://i.ibb.co/h7K6jmq/Login.png');
+}
+.btn_login:hover a::before{
+    content: url('https://i.ibb.co/3WkWgks/Login.png');
+}

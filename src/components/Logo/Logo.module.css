@@ -1,0 +1,6 @@
+.rounded_logo{
+    background-color: #fff;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}

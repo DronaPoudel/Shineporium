@@ -1,0 +1,62 @@
+.container{
+    margin: 0 14%;
+}
+.container ul{
+    list-style: none;
+}
+.container ul{
+    text-align: left;
+}
+.container ul li a{
+    color: #fff;
+}
+.footerbg{
+background-color: #707070 !important;
+}
+.useful_links ul{
+    padding-left: 30px !important;
+}
+.social_handles span{
+ margin-right: 12px;
+}
+.social_handles span a{
+    color: #fff;
+}
+.social_handles span i:hover{
+    color: var(--red);
+}
+.Footer_form{
+    /* position: relative; */
+}
+.Footer_form input, .Footer_form input:focus{
+    padding: 10px 13px;
+  border: 0;
+  outline: 0;
+}
+.Footer_form input[type="email"] {
+    margin-right: 15px;
+    width: 60%;
+    color: #a09f9f;
+    position: absolute;
+    left: 0;
+}
+.Footer_form input[type="submit"] {
+    padding: 10px 15px;
+    color: #c0d6db;
+    background: #427b89;
+    text-shadow: 0 2px 2px #333;
+    box-shadow: inset 0 0 0 transparent;
+    background: #508f9f;
+    background: linear-gradient(to bottom, #508f9f 0%,#346976 100%);
+    transition: all .3s ease-in-out;
+    position: absolute;
+    right: 0;
+    width: 40%;
+  }
+  .Footer_form input[type="submit"]:hover,
+.Footer_form input[type="submit"]:focus {
+  box-shadow: inset 0 0 50px rgba(255,255,255, 0.3),
+                    0 0 10px rgba(255,255,255, 0.1);
+  color: white;
+  margin-left: 10px;
+}

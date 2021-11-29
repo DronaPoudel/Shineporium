@@ -1,0 +1,36 @@
+:root {
+    --red: #e3322b;
+    --blue: #384184;
+}
+.brand-color1{
+    color: var(--red);
+}
+.brand-color2{
+    background-color: var(--blue);
+}
+.bgbrand-color1{
+    background-color: var(--red);
+}
+.bgbrand-color2{
+    background-color: var(--blue);
+}
+.colorwhite{
+    color: #fff;
+}
+.img_full_width{
+    width: 100%;
+    height: auto;
+}
+.title{
+    display:inline-block;
+    position:relative;
+}
+.title::after{
+        content:'';
+        height:4px;
+        width:33%;
+        background:#24BAE9;
+        position:absolute;
+        left:calc(50% - 10%);
+        bottom:-5px;        
+}

@@ -1,0 +1,104 @@
+/* https://bootsnipp.com/snippets/EzK6y */
+.text_start{
+    text-align: start;
+}
+.description ul > li{
+    margin-right:25px;
+    font-weight:lighter;
+    cursor:pointer
+}
+.menu_items li.active{
+    border-bottom:3px 
+    solid silver;
+}
+.Det_info{
+    border:0px solid gray
+}
+.Det_info h5{
+    color:#337ab7
+}
+.Det_info h5 small{
+    color:#337ab7;
+}
+.Det_info h3{
+    margin-top:0px;
+}
+.title_price{
+    margin-top:30px;
+    margin-bottom:0;
+    color:black;
+}
+.title_attr{
+    margin-top:0;
+    margin-bottom:0;
+    color:black;
+}
+
+.item_photo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-right:1px solid #f6f6f6;
+}
+.menu_items{
+    list-style-type:none;
+    font-size:11px;
+    display:inline-flex;
+    margin-bottom:0;
+    margin-top:20px
+}
+.color_selection{
+    width:100%;
+    margin-left:-15px;
+    padding:2px;
+    padding-left:15px;
+    padding-right:15px;
+    background:#f8f9f9;
+}
+.color_attr .attr:first-child{
+    width:25px;
+    background:#5a5a5a;
+}
+.color_attr .attr:nth-child(2){
+    width:25px;
+    background:white;
+}
+.atts .attr, .atts .attr2{
+    cursor:pointer;
+    margin-right:5px;
+    height:20px;
+    font-size:10px;
+    padding:2px;
+    border:1px solid gray;
+    border-radius:2px;
+}
+/* active class from jQuery */
+.atts .attr.active, .atts .attr.active{
+    border:1px solid orange;
+}
+.section, .Qty_selector input{
+    margin:0;
+    padding-left:5px;
+    font-size:10px;
+    padding-right:5px;
+    /* max-width:18%; */
+}
+.section div{
+    width:100%;
+    display:inline-flex;
+}
+.btn_success{
+    background: linear-gradient(to bottom, #508f9f 0%,#346976 100%);
+    color: #fff;
+    /* border-color: #28a745; */
+    border-radius: 0;
+}
+.btn_success:hover{
+    color: #ded9d9
+}
+.btn_plus
+{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0;}
+.btn_minus
+    {cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0;}
+
+    
